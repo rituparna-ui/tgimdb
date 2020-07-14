@@ -10,7 +10,7 @@ bot.start((ctx)=> {
 });
 
 bot.command("search",(ctx)=> {
-	ctx.reply("Showing the top result\nPlease wait");
+	ctx.reply("Showing the top search result\nPlease wait");
 	var msg = ctx.message.text;
 	var msgArr = msg.split(" ");
 	msgArr.shift();
